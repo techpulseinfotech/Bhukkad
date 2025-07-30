@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import {toast} from 'react-toastify';
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'api.karauli.store';
 
 const AddFoodItems = () => {
 

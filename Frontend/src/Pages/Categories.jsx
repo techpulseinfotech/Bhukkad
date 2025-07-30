@@ -3,7 +3,7 @@ import Hero from '../components/hero';
 import axios from 'axios';
 import FoodCard from '../components/FoodCard';
 import FoodCardShimer from '../components/FoodCardShimer';
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'api.karauli.store';
 
 
 function Categories() {

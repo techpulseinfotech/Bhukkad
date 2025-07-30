@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import FoodCard from './FoodCard';
 import FoodCardShimer from './FoodCardShimer';
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'api.karauli.store';
 
 function AllFoodItem() {
     const [FoodItems, setFoodItems] = useState([]);

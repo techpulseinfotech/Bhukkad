@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom'
 import FoodItemDtlShimer from './FoodItemDtlShimer';
 
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'api.karauli.store';
 
 
 function FoodItemDetails() {
@@ -50,7 +50,7 @@ function FoodItemDetails() {
 
   <div className=' content-center lg:px-20 bg-zinc-800 rounded-xl'>
 
-  <img src={`http://localhost:4000/uploads/${FoodItems.FoodImage}`} alt="" className='w-[100%] h-[250px]'/>
+  <img src={`api.karauli.store/uploads/${FoodItems.FoodImage}`} alt="" className='w-[100%] h-[250px]'/>
 
   
 

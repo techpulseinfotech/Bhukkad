@@ -5,7 +5,7 @@ import { FaBoxOpen } from "react-icons/fa";
 import { FiEdit } from "react-icons/fi";
 import { Link, Outlet, useNavigate } from 'react-router-dom';
 import ProfileShimer from './ProfileShimer';
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'api.karauli.store';
 
 
 

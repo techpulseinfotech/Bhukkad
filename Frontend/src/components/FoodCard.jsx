@@ -14,7 +14,7 @@ function FoodCard({data}) {
         <div className='bg-zinc-800 rounded px-4 py-4 flex flex-col text-white  '>
     
           <div className='bg-zinc-900 rounded items-center flex justify-center'>
-          <img src={`http://localhost:4000/uploads/${data.FoodImage}`} alt={data.FoodName} className='h-[25vh]' />
+          <img src={`api.karauli.store/uploads/${data.FoodImage}`} alt={data.FoodName} className='h-[25vh]' />
     
           </div>
           <div>
