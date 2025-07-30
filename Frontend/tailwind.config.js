@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+       animation: {
+        'spin-slow': 'spin 4s linear infinite',
+        'spin-slower': 'spin 8s linear infinite',
+      },
+
       colors:{
         primaryColor:"red"
       }

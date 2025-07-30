@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import  about1 from "../assets/about-1.jpg"
+import about from '../assets/about-1.jpg'
 
 function AboutUs() {
   return (
@@ -14,7 +14,7 @@ function AboutUs() {
   
           <div className='lg:w-3/6 w-full pt-20  content-center flex items-center justify-center '>
 
-          <img src={about1} className='h-[70%] w-[65%] ' alt="" />
+          <img src={about} className='h-[70%] w-[65%] ' alt="about-us" />
 
           </div>
 

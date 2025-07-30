@@ -1,5 +1,5 @@
 import React from 'react';
-import hero1 from '../assets/hero-1.png';
+import Thali from '../assets/hero-1.png'
 import hero2 from '../assets/bg-hero.jpg';
 
 function Bnr() {
@@ -31,8 +31,8 @@ function Bnr() {
         {/* Image Section */}
         <div className="h-auto lg:w-3/6 w-full flex items-center justify-center">
           <img
-            src={hero1}
-            className="w-[65%] animate-spin-slow"
+            src={Thali}
+            className="w-[65%] animate-spin-slower"
             alt="Delicious Food Banner"
           />
         </div>
