@@ -11,7 +11,7 @@ import Login from './Pages/Login';
 import AddFoodItems from './Pages/AddFoodItems';
 import FoodItemDetails from './components/FoodItemDetails';
 import EditProfile from './components/EditProfile';
-import Order from './components/order';
+import Order from './components/Order';
 
 import { ToastContainer } from 'react-toastify';
 function App() {
