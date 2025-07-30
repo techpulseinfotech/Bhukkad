@@ -3,7 +3,7 @@ import axios from 'axios';
 import FoodCard from './FoodCard';
 import FoodCardShimer from './FoodCardShimer';
 
-// Ensure correct API URL (add https:// if missing)
+
 axios.defaults.baseURL = 'https://api.karauli.store';
 
 function AllFoodItem() {
@@ -14,7 +14,7 @@ function AllFoodItem() {
             try {
                 const response = await axios.get('/recently-added');
                 const items = response?.data?.data;
-                console.log("API response:", items);
+          
                 setFoodItems(Array.isArray(items) ? items : []);
             } catch (error) {
                 console.error("API fetch error:", error);

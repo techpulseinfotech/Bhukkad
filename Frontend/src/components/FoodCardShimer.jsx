@@ -8,7 +8,7 @@ function FoodCardShimer() {
     <div className=' mt-5 bg-zinc-600 rounded px-4 py-4 flex flex-col text-white animate-pulse '>
 
       <div className=' rounded items-center flex justify-center animate-pulse bg-zinc-500'>
-      <img src="" alt="" className='h-[25vh] w-[80%] animate-pulse bg-zinc-400 ' />
+      <img src=" " alt="" className='h-[25vh] w-[80%] animate-pulse bg-zinc-400 ' />
 
       </div>
       <div>
