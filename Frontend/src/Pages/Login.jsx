@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {toast} from 'react-toastify';
-axios.defaults.baseURL = 'api.karauli.store';
+axios.defaults.baseURL = 'https://api.karauli.store';
 
 
 function Login() {

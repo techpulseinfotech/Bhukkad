@@ -1,6 +1,6 @@
 import React,{useState,useEffect, use} from 'react'
 import axios from 'axios';
-axios.defaults.baseURL = 'api.karauli.store';
+axios.defaults.baseURL = 'https://api.karauli.store';
 
 function EditProfile() {
     
